@@ -1,11 +1,9 @@
-import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import MainStack from './navigate'
 
-export default function App() {
+export default function MainDisplay() {
   return (
     <View style={styles.container}>
-      <MainStack/>
+        <Text>MainDisplay</Text>
     </View>
   );
 }
